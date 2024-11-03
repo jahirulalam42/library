@@ -12,10 +12,11 @@ const BookCard = ({ book }) => {
       <p>Pages: {book.pages}</p>
       <p>Year: {book.year}</p>
       <Image
-        src="/images/sbook.svg" // Path to your single book image
+        src="/images/sbook.svg"
         alt={`Cover of ${book.title}`}
-        width={200} // Set desired width
-        height={300} // Set desired height
+        width={200}
+        height={300}
+        t
       />
       <a href={book.link} target="_blank" rel="noopener noreferrer">
         More Info
